@@ -88,4 +88,4 @@ cmake --build build --target logger_tests
 
 - The socket logger automatically initializes Winsock (WSAStartup/WSACleanup)
 - Link with `ws2_32.lib` (handled by CMake)
-- Use `logger_app.exe` and `logger_sender.exe` on Windows
+- Use `logger_app.exe` on Windows
